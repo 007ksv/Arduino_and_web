@@ -12,7 +12,7 @@ def index():
         if request.method=='POST':
                 bright = request.form.get('bright')
                 arduino.write(str(bright))
-                return bright
+                return render_template('index.html', msg=bright)
         return render_template('index.html')
 
 if __name__ == '__main__':
