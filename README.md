@@ -10,8 +10,15 @@
 - Breadboard
 - Jumper Wires
 - Led Diodes
-# Instructions
-## Clone the repo
+# Instructions and installation for python
 ```sh
 $ sudo git clone https://github.com/007ksv/Arduino_and_web/
+$ cd ./"led blink"
+$ python3 app.py
 ```
+# Intruction and Installation for Arduino 
+- Plug your arduino board to your system 
+- Select the right serial port on arduino IDE
+- Copy the arduino code and paste it to your IDE
+- Then run the code
+
