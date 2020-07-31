@@ -10,3 +10,8 @@
 - Breadboard
 - Jumper Wires
 - Led Diodes
+# Instructions
+## Clone the repo
+```sh
+$ sudo git clone https://github.com/007ksv/Arduino_and_web/
+```
